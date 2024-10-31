@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/enter_a_positive_integer"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioEven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/even_numbers" />
+
+        <RadioButton
+            android:id="@+id/radioOdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/odd_numbers" />
+
+        <RadioButton
+            android:id="@+id/radioSquare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/square_numbers" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textViewError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark" />
+</LinearLayout>

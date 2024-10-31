@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bai1</string>
+    <string name="enter_a_positive_integer">Enter a positive integer</string>
+    <string name="odd_numbers">Odd</string>
+    <string name="even_numbers">Even</string>
+    <string name="show">Show</string>
+    <string name="square_numbers">Square</string>
+</resources>
